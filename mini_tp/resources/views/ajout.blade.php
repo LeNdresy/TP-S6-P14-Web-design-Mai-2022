@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta
+  name="description"
+  content="Créer un contenu sur une IA">
 
   <title>BackOffice</title>
   <meta content="" name="description">
