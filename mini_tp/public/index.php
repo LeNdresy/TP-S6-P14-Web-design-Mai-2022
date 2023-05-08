@@ -50,8 +50,6 @@ $kernel = $app->make(Kernel::class);
 
 $response = $kernel->handle(
     $request = Request::capture()
-);
-
-return $response;
+)->send();
 
 $kernel->terminate($request, $response);
