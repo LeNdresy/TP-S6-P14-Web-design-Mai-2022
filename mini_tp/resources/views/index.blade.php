@@ -126,7 +126,7 @@
           <div class="col-md-6">
           <!-- Card with an image on top -->
           <div class="card">
-            <img src="assets/img/{{$line->photo}}" class="card-img-top" alt="..." width="200" height="300">
+            <img src="assets/img/{{$line->photo}}" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">{{$line->nom}}</h1>
               <p class="card-text"><h3>{!!$line->contenu!!}</h3></p>
