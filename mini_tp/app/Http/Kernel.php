@@ -22,7 +22,7 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         //\Symfony\Component\HttpFoundation\Response::class,
-        \Illuminate\Foundation\Http\Middleware\CompressResponse::class,
+        //\Illuminate\Foundation\Http\Middleware\CompressResponse::class,
     ];
 
     /**
@@ -38,7 +38,7 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \Illuminate\Foundation\Http\Middleware\CompressResponse::class,
+            //\Illuminate\Foundation\Http\Middleware\CompressResponse::class,
         ],
 
         'api' => [
