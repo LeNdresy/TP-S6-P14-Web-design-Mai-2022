@@ -114,7 +114,7 @@
           <div class="col-md-12">
           <!-- Card with an image on top -->
           <div class="card">
-            <img src="{{secure_url('assets/img')}}/{{$ia->photo}}" class="card-img-top" alt="..." >
+            <img src="{{secure_url('assets/img')}}/{{$ia->photo}}" class="card-img-top" alt="..." width="200" height="300">
             <div class="card-body">
               <h2 class="card-title">{{$ia->typecategorie}}</h2>
               <p class="card-text"><h3>{!!$ia->contenu!!}</h3></p>
